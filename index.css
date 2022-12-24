@@ -1,0 +1,152 @@
+.nav-comp{
+    margin-top: 10px;
+}
+.nav-comp .nav-item{
+    display: flex;
+    width: 90%;
+    text-align: center;
+}
+.nav-comp .nav-item .nav-item-tr{
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 20%;
+    cursor: pointer;
+    position: relative;
+}
+.nav-comp .nav-item .nav-item-tr:hover .nav-hover-div{
+    display: block;
+}
+.nav-comp .nav-item .nav-item-tr:hover .nav-name{
+   background: #f5f5f5;
+    padding: 10px;
+    border-radius: 120px;
+}
+.nav-comp .nav-item .nav-item-tr .nav-hover-div{
+    display: none;
+    margin-top: 21px;
+}
+.nav-comp .nav-item .nav-item-tr .nav-hover-div div{
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+.nav-hover-div .large{
+    display: flex;
+    text-align: left;
+}
+.nav-hover-div .large .large-item{
+    white-space: nowrap;
+    margin-right: 20%;
+    border-right: 2px solid #f5f5f5;
+    padding: 3px 25px 3px 3px;
+}
+.nav-hover-div .large .large-item div{
+  margin-top: 15px;
+}
+.nav-hover-div .large .large-item .one:before{
+    content: "";
+    background: url(./logo/1.webp) no-repeat center;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-size: 100%;
+    left: -28px;
+}
+.nav-hover-div .large .large-item .one, .nav-hover-div .large .large-item .two, .nav-hover-div .large .large-item .tree , .nav-hover-div .large .large-item .four, .nav-hover-div .large .large-item .five{
+    position: relative;
+}
+.nav-hover-div .large .large-item .two:before{
+    content: "";
+    background: url(./logo/2.webp) no-repeat center;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-size: 100%;
+    left: -28px;
+}
+.nav-hover-div .large .large-item .tree:before{
+    content: "";
+    background: url(./logo/3.webp) no-repeat center;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-size: 100%;
+    left: -28px;
+}
+.nav-hover-div .large .large-item .four:before{
+    content: "";
+    background: url(./logo/4.webp) no-repeat center;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-size: 100%;
+    left: -28px;
+}
+.nav-hover-div .large .large-item .five:before{
+    content: "";
+    background: url(./logo/5.webp) no-repeat center;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-size: 100%;
+    left: -28px;
+}
+.search-comp{
+    position: relative;
+}
+.search-comp .search{
+    border-radius: 99rem;
+    background: #f5f5f5;
+    border: 1px solid #fff;
+    width: 280px;
+    height: 40px;
+    padding-left: 35px;
+}
+.search-comp .search-box_icon-search{
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+.active{
+    border: 1px solid #ff5b00 !important;
+}
+input:focus{
+    border: 1px solid #ff5b00 !important;
+}
+*:focus {
+    outline: 0 !important;
+}
+#btnautocomplete-list{
+    padding: 15px;
+    margin-top: 5px;
+    width: 800px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.08);
+    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+}
+#btnautocomplete-list div{
+    padding: 15px;
+    position: relative;
+}
+#btnautocomplete-list div strong:before{
+    content: "";
+    position: absolute;
+    background-image: url("https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_160,h_160/v1639116267/brand%20refresh%20category%20icon/app%20mweb/icon_destination_bg48.png");
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 40px;
+    -webkit-flex: 0 0 40px;
+    flex: 0 0 40px;
+    left: -9px;
+}
